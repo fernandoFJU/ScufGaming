@@ -1,0 +1,42 @@
+/*
+|--------------------------------------------------------------------------
+| Caminhos
+|--------------------------------------------------------------------------
+*/
+
+$image-path: '../images/'; // Caminho das imagens
+$font-path: '../fonts/'; // Caminho das fontes
+/*
+|--------------------------------------------------------------------------
+| Width Principal
+|--------------------------------------------------------------------------
+*/
+
+//$main-width: 1200px; // Tamanho do Container
+/*
+|--------------------------------------------------------------------------
+| Cores
+|--------------------------------------------------------------------------
+*/
+
+$bg-color: #fff;
+$text-color: #000;
+$link-color: #000;
+$cor-primaria: #25a9e0;
+$cor-secundaria: #533569;
+/*
+|--------------------------------------------------------------------------
+| Fontes
+|--------------------------------------------------------------------------
+*/
+
+
+
+$Montserrat-Light: 'Montserrat-Light';
+$Montserrat-Medium: 'Montserrat-Medium';
+$Montserrat-SemiBold: 'Montserrat-SemiBold';
+$Montserrat-Bold: 'Montserrat-Bold';
+$Montserrat-ExtraBold: 'Montserrat-ExtraBold';
+$Montserrat-Black: 'Montserrat-Black';
+
+$title-font: $Montserrat-Medium;

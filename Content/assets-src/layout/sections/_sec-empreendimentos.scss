@@ -1,0 +1,239 @@
+﻿.sec-empreendimentos {
+    background-color: #e8eaec;
+    padding: 145px 0 120px;
+    position: relative;
+
+    
+
+    .empreendimentos-container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1110px;
+
+        @media (max-width: 767px) {
+            padding: 0 20px;
+            width: 100%;
+        }
+
+
+        .tit-section-df {
+            color: #515054;
+            text-align: center;
+
+            @media (max-width: 767px) {
+                font-size: 28px;
+            }
+
+            .icon-logo-clr {
+                @media (max-width: 475px) {
+                    display: none;
+                }
+            }
+        }
+
+        .sub-tit-sec-empreendimentos {
+            font-family: $Montserrat-Bold;
+            color: #515054;
+            font-size: 20px;
+            margin: 0 0 20px 0;
+        }
+    }
+
+
+
+
+    .cont-empreendimentos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+
+
+        @media (min-width: 767px) {
+            flex-flow: row;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    }
+
+
+    .item-empreendimento {
+        padding: 20px;
+        border-radius: 50px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 40px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all 1s ease;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (min-width: 425px) {
+            padding: 30px 20px;
+        }
+
+
+        @media (min-width: 767px) {
+            padding: 0;
+            margin: 0;
+            height: 290px;
+            width: 220px;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1;
+            background-size: contain;
+            background-position: left top;
+            border-radius: 20px;
+        }
+
+        @media (min-width: 1024px) {
+            height: 395px;
+            width: 300px;
+        }
+
+        .nome-empreendimento {
+            font-family: $Montserrat-ExtraBold;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+
+            span {
+                font-family: $Montserrat-Medium;
+                display: block;
+                font-size: 13px;
+
+                @media (max-width: 467px) {
+                    display: none;
+                }
+            }
+
+            @media (min-width: 767px) {
+                font-size: 11px;
+                padding-top: 5px;
+                width: 205px;
+
+                span {
+                    font-size: 10px;
+                }
+            }
+
+            @media (min-width: 1024px) {
+                font-size: 15px;
+                padding-top: 8px;
+                width: 278px;
+
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .link-info-emp {
+            font-family: $Montserrat-Medium;
+            color: #fff;
+            text-decoration: none;
+            position: absolute;
+            z-index: 2;
+            left: 42.5%;
+            bottom: -16px;
+            background-image: url(../images/icons/icon-add.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            font-size: 0;
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+
+
+            @media (min-width: 767px) {
+                font-size: 14px;
+                bottom: -14px;
+                left: 25%;
+                border-radius: 20px;
+                width: auto;
+                padding: 5px 15px;
+                text-align: center;
+                height: auto;
+            }
+
+            @media (min-width: 1024px) {
+                left: 29.8%;
+            }
+        }
+    }
+
+
+
+
+
+    .emp-alta-vista {
+        background: url(../images/bg/bg-btn-alta-vista.png) no-repeat center center;
+        transition: all 0.5s linear;
+
+        @media (min-width: 767px) {
+            background-image: url(../images/empreendimentos/emp-alta-vista.png);
+
+            &:hover {
+                background-image: url(../images/bg/emp-alta-vista-hover.png);
+            }
+        }
+
+        .link-info-emp {
+            background-color: #c83b1d;
+
+            @media (min-width: 767px) {
+                background-image: none;
+            }
+        }
+    }
+
+
+    .emp-ilhas-do-lago {
+        background-image: url(../images/bg/bg-btn-ilhas-do-lago.png);
+        transition: all 0.5s linear;
+
+        @media (min-width: 767px) {
+            background-image: url(../images/empreendimentos/emp-ilhas-do-lago.png);
+
+            &:hover {
+                background-image: url(../images/bg/emp-ilhas-do-lago-hover.png);
+            }
+        }
+
+        .link-info-emp {
+            background-color: #4eb79a;
+
+            @media (min-width: 767px) {
+                background-image: none;
+            }
+        }
+    }
+
+
+
+
+    .emp-olimpia-park {
+        background-image: url(../images/bg/bg-btn-olimpia-park.png);
+        transition: all 0.5s linear;
+
+        @media (min-width: 767px) {
+            background-image: url(../images/empreendimentos/emp-olimpia-park.png);
+
+            &:hover {
+                background-image: url(../images/bg/emp-olimpia-park-hover.png);
+            }
+        }
+
+        .link-info-emp {
+            background-color: #eb5c29;
+
+            @media (min-width: 767px) {
+                background-image: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*
+|--------------------------------------------------------------------------
+| Botões
+|--------------------------------------------------------------------------
+*/
+
+%btn {
+    font-family: $Montserrat-Bold;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: #eb5c29;
+}
+
+.btn-success {
+    @extend %btn;
+    background-color: #4eb79a;
+}
+.btn-secondary {
+    @extend %btn;
+    background-color: #c83b1d;
+}

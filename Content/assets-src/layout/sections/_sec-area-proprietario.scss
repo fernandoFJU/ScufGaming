@@ -1,0 +1,141 @@
+﻿.sec-area-proprietario {
+    background-color: #fff;
+    padding: 100px 0 75px 0;
+    
+    @media (min-width: 767px) {       
+    }
+
+    .tit-section-df {
+        color: #515054;
+        margin: 0 auto 25px;
+        font-size: 32px;
+
+        @media (max-width: 767px) {
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .icon-logo-clr {
+            @media (max-width: 475px) {
+                display: none;
+            }
+        }
+    }
+
+    .container-area-proprietario {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        min-height: 420px;
+
+
+        .dec-lft {
+            @media (min-width: 768px) {
+                width: 200px;
+                opacity: 0.8;
+                background-color: #e8eaec;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 320px;
+            }
+        }
+
+        .dec-rght {
+            @media (min-width: 768px) {
+                width: 400px;
+                background: url(../images/decorativas/bg-3.png) no-repeat left center;
+                background-size: cover;
+            }
+
+            @media (min-width: 1024px) {
+                width: 650px;
+            }
+        }
+    }
+
+
+    .cont-central-area-propritario {
+        padding: 0 30px;
+        max-width: 500px;
+
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            min-width: 460px;
+        }
+
+        .img-mob {
+            background: url(../images/decorativas/bg-3.png) no-repeat center center;
+            height: 180px;
+            background-size: cover;
+            position: absolute;
+            top: 160px;
+            width: 100%;
+            left: 0;
+
+            @media (min-width: 375px) {
+                top: 160px;
+            }
+
+            @media (min-width: 767px) {
+                display: none;
+            }
+        }
+
+        .sub-tit-section-df {
+            color: #515054;
+            font-size: 20px;
+            font-family: $Montserrat-Bold;
+            line-height: 20pt;
+            margin-bottom: 15px;
+            width: 80%;
+        }
+
+
+
+        .txt-area-proprietario {
+            font-family: $Montserrat-Medium;
+            font-size: 18px;
+            line-height: 17pt;
+            width: 80%;
+
+            @media (max-width: 767px) {
+                margin-top: 226px;
+                width: 100%;
+            }
+
+            strong {
+                display: block;
+            }
+        }
+
+        .sup-btns {
+            margin-top: 25px;
+            width: 75%;
+            max-width: 290px;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                margin: 25px auto 0;
+            }
+
+            .btn-success, .btn-primary, .btn-secondary {
+                font-size: 14px;
+                cursor: pointer;
+                display: block;
+                margin-bottom: 15px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

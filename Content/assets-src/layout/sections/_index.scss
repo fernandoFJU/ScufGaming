@@ -1,0 +1,70 @@
+﻿/*
+|--------------------------------------------------------------------------
+| Index (Home)
+|--------------------------------------------------------------------------
+*/
+
+
+
+@media (min-width: 375px) {
+    .container {
+    }
+}
+
+@media (min-width: 425px) {
+    .container {
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+    }
+}
+
+
+
+.tit-section-df {
+    font-family: $Montserrat-Light;
+    color: #515054;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0 0 20px 0;
+
+    strong {
+        font-family: $Montserrat-SemiBold;
+    }
+}
+
+span.icon-logo-clr {
+    background: url(../images/logos/logo-s-clr.svg) no-repeat 0 0;
+    height: 27px;
+    display: inline-block;
+    width: 39px;
+    background-size: contain;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -5px;
+}
+
+span.icon-logo-bco {
+    background: url(../images/logos/logo-s-bco.svg) no-repeat 0 0;
+    height: 27px;
+    display: inline-block;
+    width: 39px;
+    background-size: contain;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -5px;
+}

@@ -1,0 +1,151 @@
+﻿
+/* FALE CONOSCO
+ * ========================================================================== */
+.sec-fale-conosco {
+    background-color: #d4d8db;
+    padding: 100px 30px 0 30px;
+    position: relative;
+
+    @media (max-width: 767px) {
+        padding: 100px 30px 0 30px;
+    }
+
+
+    .sub-tit-sec-fale-conosco {
+        font-family: $Montserrat-Black;
+        color: #cc5a28;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+
+        span {
+            color: #515054;
+            display: block;
+            font-family: $Montserrat-Medium;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    .container-fale-conosco {
+        margin: 0 auto;
+
+        .tit-section-df {
+            @media (max-width: 767px) {
+                text-align: center;
+            }
+
+            .icon-logo-clr {
+                @media (max-width: 475px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .cont-fale-conosco {
+        max-width: 905px;
+        margin: 0 auto;
+
+        @media (max-width: 998px) {
+            max-width: 700px;
+        }
+
+        .form-fale-conosco {
+
+            .btn-primary {
+                cursor: pointer;
+
+                @media (max-width: 998px) {
+                    width: 80%;
+                    margin: 20px auto 30px;
+                    display: block;
+                }
+            }
+        }
+        
+        .infos-reservas {
+            background: url(../images/decorativas/bg-4.jpg) no-repeat center bottom;
+            height: 450px;
+            background-size: auto;
+            padding-left: 55px;
+
+            @media (max-width: 998px) {
+                background-image: none;
+                height: 120px;
+                width: 100%;
+                text-align: center;
+                padding: 0;
+            }
+
+            .sub-tit-sec-fale-conosco {
+                color: #515054;
+            }
+
+            .link-phone {
+                font-family: $Montserrat-SemiBold;
+                background: url(../images/icons/ico-phone.svg) no-repeat center left;
+                color: #515054;
+                display: inline-block;
+                padding-left: 30px;
+                font-size: 18px;
+                background-size: auto;
+                text-decoration: none;
+
+                @media (max-width: 767px) {
+                    width: 165px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .sup-select {
+        max-width: 350px;
+    }
+
+    .sup-input {
+
+        @media (max-width: 767px) {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        label {
+            font-family: $Montserrat-SemiBold;
+            display: block;
+            margin-bottom: 5px;
+            color: #000;
+            font-size: 14px;
+        }
+
+        input {
+            font-size: 14px;
+            background-color: #d4d8db;
+            color: #838485;
+            border: 1px solid #acadb0;
+            border-radius: 5px;
+            padding: 8px;
+            width: 100%;
+            font-family: $Montserrat-Medium;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            background-color: #d4d8db;
+            border: 1px solid #acadb0;
+            border-radius: 8px;
+            padding: 5px;
+            color: #838485;
+            resize: none;
+            width: 100%;
+            font-family: $Montserrat-Medium;
+            font-size: 14px;
+            height: 100px;
+        }
+    }
+}
