@@ -15,15 +15,16 @@ $font-path: '../fonts/'; // Caminho das fontes
 //$main-width: 1200px; // Tamanho do Container
 /*
 |--------------------------------------------------------------------------
-| Cores
+| Cores padrão
 |--------------------------------------------------------------------------
 */
 
-$bg-color: #fff;
-$text-color: #000;
-$link-color: #000;
-$cor-primaria: #25a9e0;
-$cor-secundaria: #533569;
+$cor-texto-destaque: #E42C47;
+$cor-texto-white: #FFFFFF;
+$cor-texto-padrao: rgba(255, 255, 255, 0.5);
+$cor-primaria: #212530;
+$cor-secundaria: #DAE1F2;
+$cor-header: #161920;
 /*
 |--------------------------------------------------------------------------
 | Fontes
@@ -32,11 +33,11 @@ $cor-secundaria: #533569;
 
 
 
-$Montserrat-Light: 'Montserrat-Light';
-$Montserrat-Medium: 'Montserrat-Medium';
-$Montserrat-SemiBold: 'Montserrat-SemiBold';
-$Montserrat-Bold: 'Montserrat-Bold';
-$Montserrat-ExtraBold: 'Montserrat-ExtraBold';
-$Montserrat-Black: 'Montserrat-Black';
+$Nunito-Light: 'Nunito-Light';
+$Nunito-Regular: 'Nunito-Regular';
+$Nunito-SemiBold: 'Nunito-SemiBold';
+$Nunito-Bold: 'Nunito-Bold';
+$Nunito-ExtraBold: 'Nunito-ExtraBold';
+$Nunito-Black: 'Nunito-Black';
 
-$title-font: $Montserrat-Medium;
+$title-font: $Nunito-Regular;

@@ -7,53 +7,20 @@
 @charset 'utf-8';
 
 body {
-    //font-family: $Helvetica, sans-serif;
-    background: $bg-color;
-    color: $text-color;
-    font-size: 17px;
-    padding-top: 120px;
-
-    @media (max-width: 998px) {
-        padding-top: 90px;
-    }
+    font-family: $Nunito-Regular, sans-serif;
+    background: $cor-secundaria;
+    color: $cor-texto-padrao;
+    font-size: 16px;
 }
 
 .overflow-h {
     overflow: hidden;
 }
-/*
-|--------------------------------------------------------------------------
-| Resets
-|--------------------------------------------------------------------------
-
-*/
-
-/*
-|--------------------------------------------------------------------------
-| Links
-|--------------------------------------------------------------------------
-*/
-
-
-
-/*
-|--------------------------------------------------------------------------
-| Seleção
-|--------------------------------------------------------------------------
-*/
-
-// img::selection {
-//   background: transparent;
-// }
-
-// img::-moz-selection {
-//   background: transparent;
-// }
 
 ::selection {
-    background: grey;
+    background: $cor-texto-destaque;
 }
 
 ::-moz-selection {
-    background: grey;
+    background: $cor-texto-destaque;
 }

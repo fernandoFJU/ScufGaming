@@ -10,16 +10,6 @@
 
 // LAYOUT - SECTIONS
 @import 'layout/sections/index';
-@import 'layout/sections/sec-banners';
-@import 'layout/sections/sec-empreendimentos';
-@import 'layout/sections/sec-quem-somos';
-@import 'layout/sections/sec-portal-agente';
-@import 'layout/sections/sec-area-proprietario';
-@import 'layout/sections/sec-fale-conosco';
-@import 'layout/sections/internas-df';
-@import 'layout/sections/int-ilhas-lago';
-@import 'layout/sections/int-olimpia-park';
-@import 'layout/sections/int-alta-vista';
 
 // MODULES
 @import 'modules/buttons';
@@ -27,7 +17,3 @@
 @import 'modules/table';
 
 // SOURCE
-@import 'sources/boostrap-grid';
-@import 'sources/slick';
-@import 'sources/custom-select';
-@import 'sources/hamburger-menu';

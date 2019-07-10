@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/*
+|--------------------------------------------------------------------------
+| Caminhos
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Width Principal
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Cores padrão
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Fontes
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Resetar css (básico)
+|--------------------------------------------------------------------------
+*/
+/* line 6, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 28, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 32, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 38, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  outline: none;
+}
+
+/* line 48, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 56, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 61, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 66, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+input {
+  line-height: normal;
+}
+
+/* line 69, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+ul {
+  list-style: none;
+}
+
+/* line 73, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_reset.scss */
+a {
+  color: inherit;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Fontes
+|--------------------------------------------------------------------------
+*/
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url("../fonts/Nunito/Nunito-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Nunito-SemiBold';
+  src: url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Nunito-ExtraBold';
+  src: url("../fonts/Nunito/Nunito-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Nunito-Black';
+  src: url("../fonts/Nunito/Nunito-Black.ttf") format("truetype");
+}
+
+/*
+|--------------------------------------------------------------------------
+| Geral
+|--------------------------------------------------------------------------
+*/
+/* line 9, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_base.scss */
+body {
+  font-family: "Nunito-Regular", sans-serif;
+  background: #DAE1F2;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+
+/* line 16, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_base.scss */
+.overflow-h {
+  overflow: hidden;
+}
+
+/* line 20, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_base.scss */
+::selection {
+  background: #E42C47;
+}
+
+/* line 24, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/base/_base.scss */
+::-moz-selection {
+  background: #E42C47;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Header
+|--------------------------------------------------------------------------
+*/
+/* line 7, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.navbar {
+  height: 92px;
+  background-color: #161920;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* line 12, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.logo {
+  width: 127px;
+  margin-right: 80px;
+}
+
+/* line 16, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.nav-item {
+  margin-right: 10px;
+}
+
+/* line 18, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+/* line 22, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.nav-link {
+  font-size: 14px;
+}
+
+/* line 24, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.nav-link:hover {
+  color: #E42C47;
+}
+
+/* line 28, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.nav-link.pagina-ativa {
+  color: #FFFFFF;
+}
+
+/* line 31, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.icon-header {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* line 36, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.icon-header:nth-child(1) {
+  background-image: url("../images/icon-pesquisa.png");
+  background-size: cover;
+}
+
+/* line 39, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.icon-header, .icon-header:nth-child(2) {
+  background-image: url("../images/icon-user.png");
+  background-size: cover;
+}
+
+/* line 43, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/layout/core/_header.scss */
+.icon-header, .icon-header:nth-child(3) {
+  background-image: url("../images/icon-bag.png");
+  background-size: cover;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Footer
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Index (Home)
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Botões
+|--------------------------------------------------------------------------
+*/
+/* line 7, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/modules/_buttons.scss */
+.btn-primary, .btn-success, .btn-secondary {
+  font-family: "Nunito-Bold";
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 19, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/modules/_buttons.scss */
+.btn-primary {
+  background-color: #eb5c29;
+}
+
+/* line 24, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/modules/_buttons.scss */
+.btn-success {
+  background-color: #4eb79a;
+}
+
+/* line 28, C:/Users/fernando/Desktop/ScufGaming/ScufGaming/Content/assets-src/modules/_buttons.scss */
+.btn-secondary {
+  background-color: #c83b1d;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Formulários
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Tabelas
+|--------------------------------------------------------------------------
+*/
+
+/*# sourceMappingURL=../assets/css/style.map */
