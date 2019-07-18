@@ -3,3 +3,25 @@
 | Index (Home)
 |--------------------------------------------------------------------------
 */
+
+.font-100{font-size: $fonte-maior;}
+.font-80{font-size: $font-80;}
+.font-70{font-size: $font-70;}
+.font-60{font-size: $font-60;}
+.font-50{font-size: $font-50;}
+.font-40{font-size: $font-40;}
+.font-30{font-size: $font-30;}
+.font-20{font-size: $font-20;}
+.font-10{font-size: $font-10;}
+.text-rose{color: $cor-texto-destaque;}
+.text-bold{font-family: $Nunito-ExtraBold;}
+
+
+.conteudo{
+    background-color: $cor-primaria;
+    border-radius: 0 0 20px 20px;
+}
+.controles-slider{
+    width: 94px;
+    
+}

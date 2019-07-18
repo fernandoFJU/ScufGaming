@@ -25,14 +25,30 @@ $cor-texto-padrao: rgba(255, 255, 255, 0.5);
 $cor-primaria: #212530;
 $cor-secundaria: #DAE1F2;
 $cor-header: #161920;
+
+/*
+|--------------------------------------------------------------------------
+| Tamanhos
+|--------------------------------------------------------------------------
+*/
+$fonte-maior: 50px;
+$font-80: $fonte-maior * 0.8;
+$font-70: $fonte-maior * 0.7;
+$font-60: $fonte-maior * 0.6;
+$font-50: $fonte-maior * 0.5;
+$font-40: $fonte-maior * 0.4;
+$font-30: $fonte-maior * 0.3;
+$font-20: $fonte-maior * 0.2;
+$font-10: $fonte-maior * 0.1;
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Fontes
 |--------------------------------------------------------------------------
 */
-
-
-
 $Nunito-Light: 'Nunito-Light';
 $Nunito-Regular: 'Nunito-Regular';
 $Nunito-SemiBold: 'Nunito-SemiBold';

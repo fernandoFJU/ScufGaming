@@ -5,20 +5,29 @@
 */
 
 %btn {
-    font-family: $Nunito-Bold;
+    font-family: $Nunito-Regular;
     font-size: 15px;
-    color: #fff;
-    border: none;
+    font-weight: 800;
+    color: $cor-texto-white;
     padding: 10px 40px;
-    border-radius: 20px;
+    border-radius: 6px;
     text-align: center;
     text-decoration: none;
-
+    letter-spacing: 1px;
 }
 
-.btn-primary {
+.btn-rose {
     @extend %btn;
-    background-color: #eb5c29;
+    background-color: $cor-texto-destaque;
+    &:hover{
+        color: $cor-texto-white;
+        background-color: darken($cor-texto-destaque, 10);
+    }
+    &:focus{
+        color: $cor-texto-white;
+        box-shadow: 0 0 0 3px rgba(228,44,71,.25);
+        background-color: darken($cor-texto-destaque, 10);
+    }
 }
 
 .btn-success {
