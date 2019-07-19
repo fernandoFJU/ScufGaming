@@ -159,19 +159,89 @@ body {
   background: #DAE1F2;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
+  background-image: url(../images/bg-completo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-/* line 16, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+/* line 20, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-100 {
+  font-size: 50px;
+}
+
+/* line 21, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-80 {
+  font-size: 40px;
+}
+
+/* line 22, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-70 {
+  font-size: 35px;
+}
+
+/* line 23, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-60 {
+  font-size: 30px;
+}
+
+/* line 24, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-50 {
+  font-size: 25px;
+}
+
+/* line 25, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-40 {
+  font-size: 20px;
+}
+
+/* line 26, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-30 {
+  font-size: 15px;
+}
+
+/* line 27, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-20 {
+  font-size: 10px;
+}
+
+/* line 28, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.font-10 {
+  font-size: 5px;
+}
+
+/* line 29, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.text-rose {
+  color: #E42C47;
+}
+
+/* line 30, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.text-bold {
+  font-family: "Nunito-ExtraBold";
+}
+
+/* line 32, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+.pai {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* line 41, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
 .overflow-h {
   overflow: hidden;
 }
 
-/* line 20, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+/* line 45, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
 ::selection {
   background: #E42C47;
 }
 
-/* line 24, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
+/* line 49, ../../../Desktop/Sites/ScufGaming/Content/assets-src/base/_base.scss */
 ::-moz-selection {
   background: #E42C47;
 }
@@ -289,69 +359,75 @@ body {
 |--------------------------------------------------------------------------
 */
 /* line 7, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-100 {
-  font-size: 50px;
-}
-
-/* line 8, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-80 {
-  font-size: 40px;
-}
-
-/* line 9, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-70 {
-  font-size: 35px;
-}
-
-/* line 10, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-60 {
-  font-size: 30px;
-}
-
-/* line 11, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-50 {
-  font-size: 25px;
-}
-
-/* line 12, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-40 {
-  font-size: 20px;
-}
-
-/* line 13, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-30 {
-  font-size: 15px;
-}
-
-/* line 14, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-20 {
-  font-size: 10px;
-}
-
-/* line 15, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.font-10 {
-  font-size: 5px;
-}
-
-/* line 16, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.text-rose {
-  color: #E42C47;
-}
-
-/* line 17, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
-.text-bold {
-  font-family: "Nunito-ExtraBold";
-}
-
-/* line 20, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
 .conteudo {
   background-color: #212530;
   border-radius: 0 0 20px 20px;
 }
 
-/* line 24, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
+/* line 11, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
 .controles-slider {
   width: 94px;
+}
+
+/* line 16, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
+.bg-cinza {
+  background-image: url("../images/bg-controles.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  border-radius: 0 0 18px 0;
+}
+
+/* line 22, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
+.box-banner-controles {
+  background-color: #E42C47;
+  box-shadow: 0px 66px 95px rgba(33, 37, 48, 0.35);
+  border-radius: 24px;
+  transform: rotate(15deg);
+  width: 450px;
+  height: 290px;
+}
+
+/* line 30, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
+.controle-grande {
+  position: absolute;
+  width: 652px;
+}
+
+/* line 34, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
+.controle-grande:nth-child(3) {
+  transform: translate(-150px, 140px);
+  animation: efeito-blue 10s linear infinite;
+}
+
+/* line 38, ../../../Desktop/Sites/ScufGaming/Content/assets-src/layout/sections/_index.scss */
+.controle-grande:nth-child(2) {
+  transform: translate(-100px, 10px);
+  animation: efeito-white 10s linear infinite;
+  animation-delay: 10s;
+}
+
+@keyframes efeito-white {
+  0% {
+    transform: translate(-150px, 140px);
+  }
+  50% {
+    transform: translate(-150px, 0px);
+  }
+  100% {
+    transform: translate(-150px, 140px);
+  }
+}
+
+@keyframes efeito-blue {
+  0% {
+    transform: translate(-150px, 100px);
+  }
+  50% {
+    transform: translate(-150px, 0px);
+  }
+  100% {
+    transform: translate(-150px, 100px);
+  }
 }
 
 /*

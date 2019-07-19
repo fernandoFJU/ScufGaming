@@ -11,6 +11,31 @@ body {
     background: $cor-secundaria;
     color: $cor-texto-padrao;
     font-size: 16px;
+    background-image: url(../images/bg-completo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.font-100{font-size: $fonte-maior;}
+.font-80{font-size: $font-80;}
+.font-70{font-size: $font-70;}
+.font-60{font-size: $font-60;}
+.font-50{font-size: $font-50;}
+.font-40{font-size: $font-40;}
+.font-30{font-size: $font-30;}
+.font-20{font-size: $font-20;}
+.font-10{font-size: $font-10;}
+.text-rose{color: $cor-texto-destaque;}
+.text-bold{font-family: $Nunito-ExtraBold;}
+
+.pai{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .overflow-h {

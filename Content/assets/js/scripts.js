@@ -13,7 +13,6 @@ $(function(){
     function abrirOffcanvas() {
         $("#abre-menu").addClass("abriu-menu");
         $(".bg-menu-ativo").fadeIn(300);
-        $("body").css("overflow-y", "hidden");
         $(".offcanvas").removeClass("off-canvas-inative").addClass("off-canvas-active");
         $("#abre-menu .barra-1").css({
             transform: "rotate(45deg) translate(7px,9px)",
@@ -28,7 +27,6 @@ $(function(){
     function fecharOffcanvas() {
         $("#abre-menu").removeClass("abriu-menu");
         $(".bg-menu-ativo").fadeOut(300);
-        $("body").css("overflow-y", "scroll");
         $(".offcanvas").removeClass("off-canvas-active").addClass("off-canvas-inative");
         $("#abre-menu .barra-1").css({
             transform: "rotate(0deg) translate(0px,0px)",
