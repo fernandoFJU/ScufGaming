@@ -6,48 +6,68 @@
 
 .conteudo{
     background-color: $cor-primaria;
-    border-radius: 0 0 20px 20px;
+    @media screen and (min-width: 992px){
+        border-radius: 0 0 20px 20px;
+	}
 }
 .controles-slider{
     width: 94px;
-
+    margin: 0 auto;
+}
+.redes-socias{
+    justify-content: space-around;
 }
 
 .bg-cinza{
     background-image: url("../images/bg-controles.png");
     background-position: left;
     background-repeat: no-repeat;
-    border-radius: 0 0 18px 0;
+    @media screen and (min-width: 992px){
+		border-radius: 0 0 18px 0;
+	}
 }
 .box-banner-controles{
     background-color: $cor-texto-destaque;
     box-shadow: 0px 66px 95px rgba(33, 37, 48, 0.35);
     border-radius: 24px;
-    transform: rotate(15deg);
     width: 450px;
     height: 290px;
+    display: none;
+    @media screen and (min-width: 992px){
+        transform: rotate(15deg);
+        display: block;
+    }
 }
 .controle-grande{
-    position: absolute;
-    width: 652px;
-
+    display: none;
+    @media screen and (min-width: 992px){
+        position: absolute;
+        width: 652px;
+        display: block;
+    }
     &:nth-child(3){
-        transform: translate(-150px, 140px);
-        animation: efeito-blue 10s linear infinite;
+        @media screen and (min-width: 992px){
+            transform: translate(-150px, 140px);
+            animation: efeito-blue 10s linear infinite;
+    	}
     }
     &:nth-child(2){
-        transform: translate(-100px, 10px);
-        animation: efeito-white 10s linear infinite;
-        animation-delay: 10s;
+        @media screen and (min-width: 992px){
+            transform: translate(-100px, 10px);
+            animation: efeito-white 10s linear infinite;
+        }
+
     }
-    @keyframes efeito-white {
-        0%{transform: translate(-150px, 140px);}
-        50%{transform: translate(-150px, 0px);}
-        100%{transform: translate(-150px, 140px);}
-    }
-    @keyframes efeito-blue {
-        0%{transform: translate(-150px, 100px);}
-        50%{transform: translate(-150px, 0px);}
-        100%{transform: translate(-150px, 100px);}
-    }
+
+}
+
+@keyframes efeito-white {
+    0%{transform: translate(-100px, 20px);}
+    50%{transform: translate(-100px, 0px);}
+    100%{transform: translate(-100px, 20px);}
+}
+@keyframes efeito-blue {
+    0%{transform: translate(-150px, 140px);}
+    50%{transform: translate(-150px, 100px);}
+    100%{transform: translate(-150px, 140px);}
 }

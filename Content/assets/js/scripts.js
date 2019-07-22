@@ -7,13 +7,21 @@ $(function(){
         }
     });
 
+    $('.slide-controles').slick({
+        autoplay: true,
+        arrows: false,
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000
+      });
+
 
 
 
     function abrirOffcanvas() {
         $("#abre-menu").addClass("abriu-menu");
         $(".bg-menu-ativo").fadeIn(300);
-        $(".offcanvas").removeClass("off-canvas-inative").addClass("off-canvas-active");
         $("#abre-menu .barra-1").css({
             transform: "rotate(45deg) translate(7px,9px)",
             "background-color": "#ffffff"
@@ -27,7 +35,6 @@ $(function(){
     function fecharOffcanvas() {
         $("#abre-menu").removeClass("abriu-menu");
         $(".bg-menu-ativo").fadeOut(300);
-        $(".offcanvas").removeClass("off-canvas-active").addClass("off-canvas-inative");
         $("#abre-menu .barra-1").css({
             transform: "rotate(0deg) translate(0px,0px)",
             "background-color": "#E42C47"
